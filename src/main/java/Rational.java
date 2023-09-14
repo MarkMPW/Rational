@@ -10,9 +10,12 @@ class Rational {
 
     Rational() {
         // to be completed
+        super();
     }
 
-    Rational(long numerator, long denominator) throws Illegal { 
+    Rational(long numerator, long denominator) throws Illegal {
+        this.numerator = numerator;
+        this.denominator = denominator;
         // to be completed
     } 
 
@@ -45,6 +48,9 @@ class Rational {
      * @param x the rational number to be subtracted from the current rational number
      */
     public void subtract(Rational x) {
+        numerator = (numerator * x.denominator) - (x.numerator * denominator);
+        denominator = (denominator * x.denominator);
+        simplestForm();
         // to be completed
     }
 
@@ -52,7 +58,10 @@ class Rational {
      * Compute a multiplication of the current rational number to another given rational number
      * @param x the rational number to be multiplied to the current rational number
      */
-    public void multiply(Rational x) { 
+    public void multiply(Rational x) {
+        numerator = numerator * x.numerator;
+        denominator = denominator * x.denominator;
+        simplestForm();
         // to be completed
     }
 
@@ -61,6 +70,9 @@ class Rational {
      * @param x the rational number to be divided by the current rational number
      */
     public void divide(Rational x) {
+        numerator = numerator * x.denominator;
+        denominator = denominator * x.numerator;
+        simplestForm();
         // to be completed
     }
 
@@ -70,8 +82,9 @@ class Rational {
      * @return true if the given rational number equals to the current, false otherwise
      */
     public boolean equals(Object x) {
+        Rational convertX = (Rational) x;
+        return this.numerator == convertX.numerator && this.denominator == convertX.denominator;
         // to be completed
-        return true; // TODO: This needs to be modified.
     }
 
     /***
@@ -82,7 +95,20 @@ class Rational {
      */
     public long compareTo(Object x) {
         // to be completed
-        return -1; // TODO: this needs to be modified.
+        Rational convertX = (Rational) x;
+        long a = this.numerator;
+        long b = this.denominator;
+        long c = convertX.numerator;
+        long d = convertX.denominator;
+
+        long y = a * d - b * c;
+        if(y == 0) {
+            return 0;
+        } else if(y > 0) {
+            return 1;
+        } else {
+            return -1;
+        }
     }
 
     /***
@@ -91,7 +117,9 @@ class Rational {
      */
     public String toString() { 
         // to be completed
-        return ""; // TODO: This needs to be modified.
+        long a = numerator;
+        long b = denominator;
+        return a + "/" + b;
     }
 
     public static void main(String[] args) {

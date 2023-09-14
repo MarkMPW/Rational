@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="LAPTOP-3MRVMQSL" name="RationalTest" skipped="0" tests="7" time="0.062" timestamp="2566-09-14T12:40:40">
+  <properties>
+    <property name="ant.library.dir" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\lib\ant\lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="20" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="MS874" />
+    <property name="java.class.path" value="C:\Users\Mark\.jdks\openjdk-20.0.2!\java.base;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.compiler;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.datatransfer;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.desktop;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.instrument;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.logging;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.management;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.management.rmi;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.naming;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.net.http;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.prefs;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.rmi;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.scripting;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.se;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.security.jgss;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.security.sasl;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.smartcardio;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.sql;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.sql.rowset;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.transaction.xa;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.xml;C:\Users\Mark\.jdks\openjdk-20.0.2!\java.xml.crypto;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.accessibility;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.attach;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.charsets;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.compiler;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.crypto.cryptoki;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.crypto.ec;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.crypto.mscapi;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.dynalink;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.editpad;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.hotspot.agent;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.httpserver;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.incubator.concurrent;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.incubator.vector;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.internal.ed;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.internal.jvmstat;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.internal.le;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.internal.opt;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.internal.vm.ci;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.internal.vm.compiler;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.internal.vm.compiler.management;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jartool;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.javadoc;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jcmd;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jconsole;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jdeps;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jdi;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jdwp.agent;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jfr;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jlink;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jpackage;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jshell;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jsobject;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.jstatd;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.localedata;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.management;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.management.agent;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.management.jfr;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.naming.dns;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.naming.rmi;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.net;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.nio.mapmode;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.random;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.sctp;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.security.auth;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.security.jgss;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.unsupported;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.unsupported.desktop;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.xml.dom;C:\Users\Mark\.jdks\openjdk-20.0.2!\jdk.zipfs;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\lib\ant\lib\ant.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\lib\idea_rt.jar" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.variant" value="" />
+    <property name="java.vendor.url" value="https://java.oracle.com/" />
+    <property name="user.country.format" value="TH" />
+    <property name="os.name" value="Windows 10" />
+    <property name="java.vm.specification.version" value="20" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.boot.library.path" value="C:\Users\Mark\.jdks\openjdk-20.0.2\bin" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile C:\Users\Mark\Desktop\SEQA\Rational\build.xml test" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\Mark" />
+    <property name="user.language" value="en" />
+    <property name="sun.stderr.encoding" value="UTF-8" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2023-07-18" />
+    <property name="java.home" value="C:\Users\Mark\.jdks\openjdk-20.0.2" />
+    <property name="file.separator" value="\" />
+    <property name="basedir" value="C:\Users\Mark\Desktop\SEQA\Rational" />
+    <property name="java.vm.compressedOopsMode" value="32-bit" />
+    <property name="sun.stdout.encoding" value="UTF-8" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.java.version" value="20" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="20.0.2+9-78" />
+    <property name="user.name" value="Mark" />
+    <property name="ant.file" value="C:\Users\Mark\Desktop\SEQA\Rational\build.xml" />
+    <property name="stdout.encoding" value="UTF-8" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="ant.core.lib" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\lib\ant\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+    <property name="java.io.tmpdir" value="C:\Users\Mark\AppData\Local\Temp\" />
+    <property name="java.version" value="20.0.2" />
+    <property name="user.dir" value="C:\Users\Mark\Desktop\SEQA\Rational" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.language.format" value="th" />
+    <property name="ant.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\lib\ant" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="native.encoding" value="MS874" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+    <property name="java.library.path" value="C:\Users\Mark\.jdks\openjdk-20.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;Program Files\Common Files\Oracle\Java\javapath;Program Files (x86)\Common Files\Oracle\Java\javapath;Users\Mark\Desktop\jdk8u252-b09\bin;Windows\system32;Windows;Windows\System32\Wbem;Windows\System32\WindowsPowerShell\v1.0\;Windows\System32\OpenSSH\;Program Files (x86)\NVIDIA Corporation\PhysX\Common;Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;Python\Python39;MinGW\bin;Program Files\Git\cmd;Users\Mark\flutter\bin;Program Files\Java\jdk-17\bin;Program Files (x86)\Pulse Secure\VC142.CRT\X64\;Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Users\Mark\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;Program Files\MySQL\MySQL Shell 8.0\bin\;Python\Python39\Scripts\;Python\Python39\;C:\Users\Mark\AppData\Local\Microsoft\WindowsApps;Users\Mark\AppData\Local\Programs\Microsoft VS Code\bin;Users\Mark\AppData\Roaming\npm;src\flutter\bin;Users\Mark\AppData\Local\GitHubDesktop\bin;C:\Users\Mark\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Mark\AppData\Roaming\npm;C:\Users\Mark\AppData\Local\GitHubDesktop\bin;C:\Users\Mark\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\bin;;." />
+    <property name="stderr.encoding" value="UTF-8" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="java.vm.version" value="20.0.2+9-78" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="java.class.version" value="64.0" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.007" />
+  <testcase classname="RationalTest" name="testSubtract" time="0.0" />
+  <testcase classname="RationalTest" name="testToString" time="0.006" />
+  <testcase classname="RationalTest" name="testCompareTo" time="0.001" />
+  <testcase classname="RationalTest" name="testDivide" time="0.0" />
+  <testcase classname="RationalTest" name="testEquals" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
